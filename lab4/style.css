@@ -1,0 +1,57 @@
+.firstrow{
+  width:0px;
+  display: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+#table{
+
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+#table th {
+
+    padding: 12px 15px;
+}
+#table td {
+
+    padding: 12px 15px;
+}
+#table tr {
+
+}
+#table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+h1{
+ background-color:#FFEFD5;
+ color:pink;
+ padding:20px;
+ text-align: center;
+ /**background-color:brown;
+ color:white;
+ padding:20px;
+ text-align: center;*/
+}
+.myform input{
+ margin:5px;
+}
+table{
+ margin:5px;
+}

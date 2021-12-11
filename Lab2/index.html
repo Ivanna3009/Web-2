@@ -1,0 +1,261 @@
+<html>
+
+<head>
+	<title>Lab2</title>
+	<link rel="stylesheet" href="styles_main.css">
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div id="main_menu">
+		<h1>Menu</h1>
+		<div class="choise">
+			<a class="item" href="#passenger">
+				Passenger</a>
+			<a class="item" href="#ticket">
+				Ticket</a>
+			<a class="item" href="#train">
+				Train</a>
+			<a class="item" href="#sticket">
+				Sold Ticket</a>
+		</div>
+	</div>
+	
+	<div id="passenger">
+		<h1>Passenger</h1>
+		<div class="choise">
+			<a class="item" href="#passenger">
+				Passenger</a>
+			<a class="item" href="#ticket">
+				Ticket</a>
+			<a class="item" href="#train">
+				Train</a>
+			<a class="item" href="#sticket">
+				Sold Ticket</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="pname">Name:</label>
+				<input type="text" id="pname" name="pname">
+				</div>
+				<div class="item">
+				<label for="ppass">Passport:</label>
+				<input type="text" id="ppass" name="ppass">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_passenger">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="peid">Id:</label>
+				<input type="text" id="peid" name="peid">
+				</div>
+				<div class="item">
+				<label for="pename">Name:</label>
+				<input type="text" id="pename" name="pename">
+				</div>
+				<div class="item">
+				<label for="pepass">Passport:</label>
+				<input type="text" id="pepass" name="pepass">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_passenger">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_passenger"></div>
+	</div>
+	
+	<div id="ticket">
+		<h1>Ticket</h1>
+		<div class="choise">
+			<a class="item" href="#passenger">
+				Passenger</a>
+			<a class="item" href="#ticket">
+				Ticket</a>
+			<a class="item" href="#train">
+				Train</a>
+			<a class="item" href="#sticket">
+				Sold Ticket</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="tnumber">Number:</label>
+				<input type="text" id="tnumber" name="tnumber">
+				</div>
+				<div class="item">
+				<label for="tprice">Price:</label>
+				<input type="text" id="tprice" name="tprice">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_ticket">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="teid">Id:</label>
+				<input type="text" id="teid" name="teid">
+				</div>
+				<div class="item">
+				<label for="tenumber">Number:</label>
+				<input type="text" id="tenumber" name="tenumber">
+				</div>
+				<div class="item">
+				<label for="teprice">Price:</label>
+				<input type="text" id="teprice" name="teprice">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_ticket">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_ticket"></div>
+	</div>
+	
+	<div id="train">
+		<h1>Train</h1>
+		<div class="choise">
+			<a class="item" href="#passenger">
+				Passenger</a>
+			<a class="item" href="#ticket">
+				Ticket</a>
+			<a class="item" href="#train">
+				Train</a>
+			<a class="item" href="#sticket">
+				Sold Ticket</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="trname">Name:</label>
+				<input type="text" id="trname" name="trname">
+				</div>
+				<div class="item">
+				<label for="trroad">Road:</label>
+				<input type="text" id="trroad" name="trroad">
+				</div>
+				<div class="item">
+				<label for="trnumber">Number:</label>
+				<input type="text" id="trnumber" name="trnumber">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_train">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="treid">Id:</label>
+				<input type="text" id="treid" name="treid">
+				</div>
+				<div class="item">
+				<label for="trename">Name:</label>
+				<input type="text" id="trename" name="trename">
+				</div>
+				<div class="item">
+				<label for="treroad">Road:</label>
+				<input type="text" id="treroad" name="treroad">
+				</div>
+				<div class="item">
+				<label for="trenumber">Number:</label>
+				<input type="text" id="trenumber" name="trenumber">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_train">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_train"></div>
+	</div>
+	
+	<div id="sticket">
+		<h1>Sold Ticket</h1>
+		<div class="choise">
+			<a class="item" href="#passenger">
+				Passenger</a>
+			<a class="item" href="#ticket">
+				Ticket</a>
+			<a class="item" href="#train">
+				Train</a>
+			<a class="item" href="#sticket">
+				Sold Ticket</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="stpass">Passenger:</label>
+				<input type="text" id="stpass" name="stpass">
+				</div>
+				<div class="item">
+				<label for="sttrain">Train:</label>
+				<input type="text" id="sttrain" name="sttrain">
+				</div>
+				<div class="item">
+				<label for="stticket">Ticket:</label>
+				<input type="text" id="stticket" name="stticket">
+				</div>
+				<div class="item">
+				<label for="stdate">Date:</label>
+				<input type="text" id="stdate" name="stdate">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_sticket">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="steid">Id:</label>
+				<input type="text" id="steid" name="steid">
+				</div>
+				<div class="item">
+				<label for="stepass">Passenger:</label>
+				<input type="text" id="stepass" name="stepass">
+				</div>
+				<div class="item">
+				<label for="stetrain">Train:</label>
+				<input type="text" id="stetrain" name="stetrain">
+				</div>
+				<div class="item">
+				<label for="steticket">Ticket:</label>
+				<input type="text" id="steticket" name="steticket">
+				</div>
+				<div class="item">
+				<label for="stedate">Date:</label>
+				<input type="text" id="stedate" name="stedate">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_sticket">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_sticket"></div>
+	</div>
+</body>
+
+</html>
